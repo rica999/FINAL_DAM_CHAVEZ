@@ -35,7 +35,7 @@ class MapaUbicacionActivity : AppCompatActivity(), OnMapReadyCallback {
         val zoomLevel = 16.0f //This goes up to 21
 
         p0?.apply {
-            val sydney = LatLng(obj?.long ?: 0.0, obj?.lat ?: 0.0)
+            val sydney = LatLng(obj?.lat ?: 0.0, obj?.long ?: 0.0)
             addMarker(
                 MarkerOptions()
                     .position(sydney)

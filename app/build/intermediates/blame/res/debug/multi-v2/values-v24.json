@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\angel\\AndroidStudioProjects\\zea\\Examen_final_alvaro\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "C:\\Users\\PROPIETARIO\\AndroidStudioProjects\\Examen_final_Angel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\angel\\.gradle\\caches\\transforms-2\\files-2.1\\b68f176dc2e6819a41b19b11701634f4\\appcompat-1.2.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\PROPIETARIO\\.gradle\\caches\\transforms-2\\files-2.1\\b68f176dc2e6819a41b19b11701634f4\\appcompat-1.2.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
