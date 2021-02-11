@@ -48,7 +48,7 @@ class FormLatLongActivity : AppCompatActivity() {
             obj?.long = long.toDouble()
             obj?.nameMarc = name
 
-            val intent = Intent(this, FormLatLongActivity::class.java)
+            val intent = Intent(this, MapaUbicacionActivity::class.java)
             startActivity(intent)
         }
 

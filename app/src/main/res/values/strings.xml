@@ -8,4 +8,6 @@
     <string name="longitud">Longitud</string>
     <string name="latitud">Latitud</string>
     <string name="enviar">Enviar</string>
+    <string name="maps_api_key">AIzaSyAe7MxKn28oGowRbyocI2AabLOGpLZz6_M</string>
+
 </resources>
