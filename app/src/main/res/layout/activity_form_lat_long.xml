@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".FormLatLongActivity">
+
+
+    <TextView
+        android:id="@+id/lbl_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mi_examen_final"
+        android:layout_marginTop="24dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/indie_flower_regular"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        />
+
+
+    <TextView
+        android:id="@+id/lbl_lat"
+        android:text="@string/latitud"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@+id/edt_lat"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_title"
+        />
+    <EditText
+        android:id="@+id/edt_lat"
+        android:background="@color/white"
+        android:hint="@string/latitud"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:inputType="numberSigned"
+        android:fontFamily="@font/indie_flower_regular"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lbl_lat"
+        />
+
+
+    <TextView
+        android:id="@+id/lbl_long"
+        android:text="@string/longitud"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@+id/edt_long"
+        app:layout_constraintTop_toBottomOf="@+id/edt_lat"
+        />
+
+    <EditText
+        android:id="@+id/edt_long"
+        android:background="@color/white"
+        android:hint="@string/longitud"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:paddingStart="10dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/indie_flower_regular"
+        android:inputType="numberSigned"
+        android:paddingLeft="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_long"
+        />
+
+
+    <TextView
+        android:id="@+id/lbl_name_marc"
+        android:text="@string/nombre_del_marcador"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@+id/edt_long"
+        app:layout_constraintTop_toBottomOf="@+id/edt_long"
+        />
+
+    <EditText
+        android:id="@+id/edt_marc"
+        android:background="@color/white"
+        android:hint="@string/nombre_del_marcador"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:paddingStart="10dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/indie_flower_regular"
+        android:paddingLeft="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_name_marc"
+        />
+
+    <Button
+        android:id="@+id/btn_enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="36dp"
+        android:padding="16dp"
+        android:background="@color/white"
+        android:fontFamily="@font/indie_flower_regular"
+        android:text="@string/enviar"
+        app:layout_constraintTop_toBottomOf="@id/edt_marc"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@drawable/img_group_73"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/btn_enviar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

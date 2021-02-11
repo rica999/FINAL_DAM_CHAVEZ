@@ -1,0 +1,4 @@
+#Thu Feb 11 15:46:20 COT 2021
+base.0=C\:\\Users\\angel\\AndroidStudioProjects\\zea\\Examen_final_alvaro\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

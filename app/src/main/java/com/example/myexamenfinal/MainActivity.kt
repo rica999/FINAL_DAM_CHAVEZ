@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             if (isNullOrEmpty(pass)) {
-                Toast.makeText(this, "Ingrese una contraseña", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Ingrese una contraseÃ±a", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             if(listUserPermitidos.firstOrNull{it.pass == pass} == null) {
-                Toast.makeText(this, "La contraseña es incorrecta", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "La contraseÃ±a es incorrecta", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
